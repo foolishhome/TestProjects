@@ -1,0 +1,6 @@
+source 'http://gems.ruby-china.org'
+
+# Specify your gem's dependencies in mediagem.gemspec
+gemspec
+
+gem 'i18n'
