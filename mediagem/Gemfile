@@ -4,3 +4,4 @@ source 'http://gems.ruby-china.org'
 gemspec
 
 gem 'i18n'
+gem 'ffi'

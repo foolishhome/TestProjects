@@ -1,5 +1,5 @@
-require "mediagem/version"
-require 'config/locale'
+require_relative 'mediagem/version'
+require_relative 'config/locale'
 
 module Mediagem
   # Your code goes here...
