@@ -4,9 +4,10 @@ scipy
 
 pymysql
 sqlalchemy
+cryptography
 
 fastapi
 uvicorn
 
-
+opencv-python-headless < 4.3
 

@@ -1,5 +1,6 @@
 import matplotlib
 import numpy as np
+import scipy as si
 import unittest
 
 class NumTest(object):

@@ -5,6 +5,9 @@
 
 import numtester
 import mysqltester
+import cv2
+import numpy
+import pymysql
 
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
@@ -14,5 +17,8 @@ def print_hi(name):
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('PyCharm')
+    print(cv2.__version__)
+    print(numpy.__version__)
+    print(pymysql.__version__)
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/

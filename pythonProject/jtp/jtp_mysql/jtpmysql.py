@@ -18,10 +18,10 @@ class JTPDBMysql:
         self._port = port
 
     def connect(self):
-        _conn = pymysql.connect(host=self._host, port=self._port, db=self._db, user=self._user, password=self._password)
-        if (_conn):
-            _cursor = _conn.cursor(pymysql.cursors.DictCursor)
-            if (_cursor):
+        self._conn = pymysql.connect(host=self._host, port=self._port, db=self._db, user=self._user, password=self._password)
+        if (self._conn):
+            self._cursor = self._conn.cursor(pymysql.cursors.DictCursor)
+            if (self._cursor):
                 return True
         return False
 
